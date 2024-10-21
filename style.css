@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap");
+a {
+  text-decoration: none;
+  color: #3897f0;
+}
+
+.heading {
+  text-align: center;
+  font-family: "Playwrite GB S", cursive;
+}
+
+.instagram-logo {
+  height: 400px;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.btn {
+  background-color: #405de6;
+  color: white;
+  height: 35px;
+  width: 150px;
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+  font-size: 17px;
+  border-radius: 10px;
+  border: none;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: white;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.close-icon {
+  position: absolute;
+  height: 20px;
+  right: 12px;
+  top: 12px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-input {
+  width: 250px;
+  margin: 10px 0;
+  height: 30px;
+  border-radius: 5px;
+  padding: 0 10px;
+  border: 0.5px solid black;
+}
+
+.login-button {
+  background-color: #405de6;
+  height: 30px;
+  width: 250px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.forgot-password {
+  text-align: center;
+}
+
+.divider {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.login-with-fb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.fb-icon {
+  width: 20px;
+}
+
+.sign-up {
+  text-align: center;
+  margin-top: 10px;
+}

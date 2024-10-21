@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram Login Dialog Box</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="heading">Instagram</h1>
+    <img src="./img/instagram.png" alt="" class="instagram-logo" />
+    <button class="btn" onclick="openModal()">Login</button>
+
+    <div class="overlay" id="overlay">
+      <div class="modal">
+        <img
+          src="./img/close.png"
+          alt="close-icon"
+          class="close-icon"
+          onclick="closeModal()"
+        />
+        <h1 class="heading">Instagram</h1>
+        <form class="form">
+          <input
+            type="text"
+            placeholder="Phone number,username or email"
+            class="form-input"
+            required
+          />
+          <input
+            type="password"
+            placeholder="Password"
+            class="form-input"
+            required
+          />
+          <button class="login-button" type="submit">Login</button>
+        </form>
+
+        <div class="forgot-password">
+          <a href="#">Forgot password?</a>
+        </div>
+
+        <div class="divider">OR</div>
+
+        <div class="login-with-fb">
+          <img src="./img/facebook.png" alt="Facebook Icon" class="fb-icon" />
+          <a href="#">Log in with Facebook</a>
+        </div>
+
+        <div class="sign-up">
+          <p>Don't have an account? <a href="#">Sign up</a></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
